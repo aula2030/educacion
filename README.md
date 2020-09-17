@@ -29,8 +29,8 @@ Se puede realizar de las siguientes maneras:
 
 1. Abre un Terminal o GIT BASH  y navega a la carpeta de tu directorio raíz.
 1. Ejecutar el comando: 
-    -  bin/gpm install learn2
-1. Para más información sobre la instalación de temas consulte este [enlace](https://learn.getgrav.org/16/basics/installation#option-3-install-from-github).
+    -  php bin/grav install
+1. Para más información sobre la instalación de GRAV consulte este [enlace](https://learn.getgrav.org/16/basics/installation#option-3-install-from-github).
 
 
 # Instalación del TEMA LEARN2
