@@ -20,7 +20,7 @@ Se puede realizar de las siguientes maneras:
 -	$ Git clone https://github.com/usuario/Nombre_de_repositorio.git
 
 
-##### Opción 2  : Instalar con el paquete ZIP 
+##### Opción 2  : Instalación con el paquete ZIP 
 
 1. 	Descarga el repositorio .zip 
 
