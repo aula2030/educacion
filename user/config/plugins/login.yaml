@@ -4,7 +4,11 @@ redirect_to_login: true
 redirect_after_login: true
 redirect_after_logout: true
 session_user_sync: true
+
 route: /Inicio
+=======
+route: /login
+
 route_after_login: /
 route_after_logout: /
 route_activate: /activate_user
@@ -41,13 +45,25 @@ user_registration:
   access:
     site:
       login: 'true'
+
   redirect_after_registration: /Inicio
   redirect_after_activation: /Inicio
+
+  redirect_after_registration: null
+  redirect_after_activation: null
+
   options:
     validate_password1_and_password2: true
     set_user_disabled: false
     login_after_registration: true
+
     send_activation_email: false
     manually_enable: false
     send_notification_email: false
     send_welcome_email: false
+
+    send_activation_email: true
+    manually_enable: false
+    send_notification_email: true
+    send_welcome_email: true
+
