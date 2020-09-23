@@ -1,5 +1,0 @@
----
-title: Registrarse
-redirect: /registro
----
-

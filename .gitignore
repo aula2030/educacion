@@ -22,9 +22,9 @@ user/accounts/*
 user/data/*
 !user/data/.*
 user/plugins/*
-!user/plugins/.*
-user/themes/*
-!user/themes/.*
+!user/plugins/login
+#/user/themes/*
+!user/themes/learn2
 user/localhost/config/security.yaml
 user/config/security.yaml
 
