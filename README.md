@@ -25,16 +25,19 @@ Se puede realizar de las siguientes maneras:
 
 1. 	Descarga el repositorio .zip 
 
-# Instalación de GRAV
 
+# **GRAV**
+
+## Instalación de GRAV
 
 1. Abre un Terminal o GIT BASH  y navega a la carpeta de tu directorio raíz.
 1. Ejecutar el comando: 
     -  php bin/grav install
 1. Para más información sobre la instalación de GRAV consulte este [enlace](https://learn.getgrav.org/16/basics/installation#option-3-install-from-github).
 
+# **TEMAS**
 
-# Instalación del TEMA LEARN2
+## Instalación del TEMA LEARN2
 
 1.  Abre un Terminal o GIT BASH  y navega a la carpeta de tu directorio raíz.
 1.	Ejecutar el comando:
@@ -42,54 +45,28 @@ Se puede realizar de las siguientes maneras:
 1.	Para más información sobre la instalación de temas consulte este [enlace](https://getgrav.org/downloads/themes).
 
 
-## Instalación desde GitHub
+### Actualización del temas Learn2
 
-Clonar Grav desde el repositorio de GitHub y luego ejecutar un script de instalación de dependencia simple:
+A medida que continúa el desarrollo del tema Learn2, pueden estar disponibles nuevas versiones que agregan características y funcionalidades adicionales, mejoran la compatibilidad con las versiones más recientes de Grav y, en general, brindan una mejor experiencia de usuario. 
 
-* Clone el repositorio Grav de GitHub a una carpeta en la raíz web de su servidor, por ejemplo ~/webroot/grav. Inicie una terminal o consola y navegue hasta la carpeta webroot:
-
-    cd ~/webroot
-    git clone -b master https://github.com/getgrav/grav.git
-
-* Instale las dependencias del proveedor a través del compositor :
-
-    cd ~/webroot/grav
-    composer install --no-dev -o
-   
-
-* Instale el complemento y las dependencias del tema mediante la aplicación CLI de Grav bin/grav :
-
-    cd ~/webroot/grav
-    bin/grav installCopiar
+Desde una  línea de comando o Git Bash situando sobre el directorio raíz, ejecutar  el comando: 
+    - bin/gpm update learn2
 
 
-    Esto automáticamente clonar las dependencias necesarias desde GitHub directamente en esta instalación Grav.
+# **PLUGINS**
 
+## Plugin de inicio de sesión de Grav.
 
-! Importante: **Instalar un nuevo tema Grav**
+Plugin de inicio de sesión está diseñado para proporcionar una forma de proteger el contenido del sitio web.
+Permite  tanto iniciar sesión como registrarse en caso de que el usuario no disponga de una cuenta de usuario utilizando  la ayuda de los plugins de **correo electrónico** y **formulario**.
 
-# Instalación
+- **Correo electrónico** sirve para  recuperar una contraseña por correo electrónico en caso de que el usuario no recuerda dicha contrasña.
+-**formulario** para generar los formularios necesarios.
 
-Nuestro método de instalación GPM (Grav Package Manager) le permite instalar rápida y fácilmente el tema con un simple
-comando de terminal.
-
-La forma más sencilla de instalar este tema es a través de Grav Package Manager (GPM) a través de la Terminal de su sistema(también llamada línea de comando). Desde la raíz de su tipo de instalación de Grav:
-
-    bin/gpm install learn2
-
-Esto instalará el tema Learn2 en su /user/themesdirectorio dentro de Grav. Sus archivos se pueden encontrar en /your/site/grav/user/themes/learn2.
-
-# Actualización
-
-A medida que continúa el desarrollo del tema Learn2, pueden estar disponibles nuevas versiones que agregan características y funcionalidades adicionales, mejoran la compatibilidad con las versiones más recientes de Grav y, en general, brindan una mejor experiencia de usuario. Actualizar Learn2 es fácil y se puede realizar a través del sistema GPM de Grav.
-
-## Actualización de GPM 
-
-La forma más sencilla de actualizar este tema es mediante Grav Package Manager (GPM) . Puede hacer esto con esto navegando al directorio raíz de su instalación de Grav usando la Terminal de su sistema (también llamada línea de comando) y escribiendo lo siguiente:
-
-        bin/gpm update learn2
-
-
+### Instalación :
+1.  Abre un Terminal o GIT BASH  y navega a la carpeta de tu directorio raíz.
+1.	Ejecutar el comando:
+    - bin/gpm install login
 
 
 
