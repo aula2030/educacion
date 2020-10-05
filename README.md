@@ -55,12 +55,12 @@ Desde una  línea de comando o Git Bash situando sobre el directorio raíz, ejec
 
 # **PLUGINS**
 
-## Plugin de inicio de sesión de Grav.
+## Plugin de inicio de sesión.
 
 Plugin de inicio de sesión está diseñado para proporcionar una forma de proteger el contenido del sitio web.
-Permite  tanto iniciar sesión como registrarse en caso de que el usuario no disponga de una cuenta de usuario utilizando  la ayuda de los plugins de **correo electrónico** y **formulario**.
+Permite  tanto iniciar sesión como registro de usuarios utilizando  la ayuda de los plugins de **correo electrónico** y **formulario**.
 
-- **Correo electrónico** sirve para  recuperar una contraseña por correo electrónico en caso de que el usuario no recuerda dicha contrasña.
+- **Correo electrónico** sirve para  recuperar una contraseña por correo electrónico en caso de que el usuario no recuerda dicha contraseña.
 -**formulario** para generar los formularios necesarios.
 
 ### Instalación :

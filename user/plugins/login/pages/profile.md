@@ -77,4 +77,4 @@ form:
       message: PLUGIN_LOGIN.PROFILE_UPDATED
 ---
 
-# Profile
+# Perfil de usuario
